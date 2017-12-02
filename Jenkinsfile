@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("Unit test") {
             steps {
-                sh "python -m unittest -v test_calc.py"
+                sh "python -m unittest -v test_calc"
             }
         }
 	stage("Run program ones") {
