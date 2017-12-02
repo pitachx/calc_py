@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import sys
@@ -10,5 +10,5 @@ def multip(one, two):
 if __name__ == '__main__':
     one = int(sys.argv[1])
     two = int(sys.argv[2])
-    print(multip(one, two))
+    print multip(one, two)
     
