@@ -6,7 +6,7 @@ pipeline {
     stages {
 	stage("Check directory") {
 	    steps {
-		sh 'if [ -d /home/jenkins/workspace/calculator/ ]; then echo "Directory exists"; fi'
+		sh 'bash check_dir.sh'
 	    }
 	}
         stage("Unit test") {
